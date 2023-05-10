@@ -8,7 +8,7 @@ export async function getInitialState(): Promise<{ name: string }> {
 
 export const layout = () => {
   return {
-    logo: 'https://img.alicdn.com/tfs/TB1YHEpwUT1gK0jSZFhXXaAtVXa-28-27.svg',
+    logo: 'http://123.60.52.7:9999/resource/steamline-logo.png',
     menu: {
       locale: false,
     },

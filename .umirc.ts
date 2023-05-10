@@ -6,8 +6,9 @@ export default defineConfig({
   model: {},
   initialState: {},
   request: {},
+  favicons: ['http://123.60.52.7:9999/resource/steamline-logo.png'],
   layout: {
-    title: '@umijs/max',
+    title: 'steamline',
   },
   routes: [
     {
@@ -18,16 +19,6 @@ export default defineConfig({
       name: '首页',
       path: '/home',
       component: './Home',
-    },
-    {
-      name: '权限演示',
-      path: '/access',
-      component: './Access',
-    },
-    {
-      name: ' CRUD 示例',
-      path: '/table',
-      component: './Table',
     },
   ],
   npmClient: 'pnpm',
