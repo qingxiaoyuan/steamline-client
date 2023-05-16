@@ -6,9 +6,9 @@ export default defineConfig({
   model: {},
   initialState: {},
   request: {},
-  favicons: ['http://123.60.52.7:9999/resource/steamline-logo.png'],
+  favicons: ['http://123.60.52.7:9999/resource/streamline-logo.png'],
   layout: {
-    title: 'steamline',
+    title: 'streamline',
   },
   routes: [
     {
@@ -23,4 +23,3 @@ export default defineConfig({
   ],
   npmClient: 'pnpm',
 });
-
